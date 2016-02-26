@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					978784CB1C8054E70049703B = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V66FY78NHJ;
 					};
 					978784DF1C8054E70049703B = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -399,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CountDownRepeat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.james.CountDownRepeat;
@@ -410,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CountDownRepeat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.james.CountDownRepeat;
