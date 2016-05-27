@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9758CDF01CF842F9009D585A /* TimerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9758CDEF1CF842F9009D585A /* TimerBrain.swift */; };
 		978784D01C8054E70049703B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978784CF1C8054E70049703B /* AppDelegate.swift */; };
 		978784D21C8054E70049703B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978784D11C8054E70049703B /* ViewController.swift */; };
 		978784D51C8054E70049703B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978784D31C8054E70049703B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9758CDEF1CF842F9009D585A /* TimerBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerBrain.swift; sourceTree = "<group>"; };
 		978784CC1C8054E70049703B /* CountDownRepeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownRepeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978784CF1C8054E70049703B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		978784D11C8054E70049703B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				978784D61C8054E70049703B /* Assets.xcassets */,
 				978784D81C8054E70049703B /* LaunchScreen.storyboard */,
 				978784DB1C8054E70049703B /* Info.plist */,
+				9758CDEF1CF842F9009D585A /* TimerBrain.swift */,
 			);
 			path = CountDownRepeat;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				978784D21C8054E70049703B /* ViewController.swift in Sources */,
 				978784D01C8054E70049703B /* AppDelegate.swift in Sources */,
+				9758CDF01CF842F9009D585A /* TimerBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 				978784F61C8054E70049703B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		978784F71C8054E70049703B /* Build configuration list for PBXNativeTarget "CountDownRepeatTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				978784F91C8054E70049703B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		978784FA1C8054E70049703B /* Build configuration list for PBXNativeTarget "CountDownRepeatUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				978784FC1C8054E70049703B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
